@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from bee import Bee
+from class_define import Bee
 from fn import cost_function
 from utils import *
 
@@ -108,16 +108,3 @@ plt.ylabel('Cost')
 plt.xlabel('Iteration')
 plt.grid(color='red',linestyle='--',linewidth='0.5')
 plt.show()
-
-
-
-
-
-
-
-
-
-
-
-
-
